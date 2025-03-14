@@ -1,5 +1,6 @@
 flask
 flask_cors # cors
 build # build package
+requests
 pytest
 -e . # local package
