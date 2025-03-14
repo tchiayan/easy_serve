@@ -13,7 +13,7 @@ This project allows you to quickly deploy a small testing model locally as an AP
 ## Getting started
 1. Install the package using pip command: `pip install easy_serve`
 2. Extend your model using `EasyServe` class. 
-3. Run server using this command: `python -m easy_deploy.serve --class_path PATH_TO_easy_serve_CLASS --class_name YOUR_CUSTOM_easy_serve --port PORT --model_args param1=value1;param2=value2`
+3. Run server using this command: `python -m easy_serve.server --class_path PATH_TO_easy_serve_CLASS --class_name YOUR_CUSTOM_easy_serve --port PORT --model_args param1=value1;param2=value2`
 
 ## Example
 1. Create a file custom_model.py
